@@ -144,7 +144,7 @@ var b=right.criteria;if(a!==b){if(a>b||a===void 0)return 1;if(a<b||b===void 0)re
       // Two hand gestures
       else if( frame.hands.length === 2 ) {
         // Upward two hand swipe gesture
-        if( gesture.direction[1] > 0 && gesture.type === 'swipe' ) {
+        if( gesture && gesture.direction && gesture.direction[1] > 0 && gesture.type === 'swipe' ) {
           Reveal.toggleOverview();
         }
 
