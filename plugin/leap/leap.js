@@ -33,7 +33,7 @@ var b=right.criteria;if(a!==b){if(a>b||a===void 0)return 1;if(a<b||b===void 0)re
         gestureDelay     : 500,       // How long to delay between gestures.
         naturalSwipe     : true,      // Swipe as if it were a touch screen.
         pointerColor     : '#00aaff', // Default color of the pointer.
-        pointerOpacity   : 0.7,       // Default opacity of the pointer.
+        pointerOpacity   : 0,       // Default opacity of the pointer.
         pointerSize      : 15,        // Default minimum height/width of the pointer.
         pointerTolerance : 120        // Bigger = slower pointer.
       },
